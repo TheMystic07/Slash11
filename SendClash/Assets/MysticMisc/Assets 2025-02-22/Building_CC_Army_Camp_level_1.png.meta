@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 3dc075fdd7f3ba04e8391c176b0de079
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3160899315018467058
+    second: Building_CC_Army_Camp_level_1_0
+  - first:
+      213: 7186984186376586949
+    second: Building_CC_Army_Camp_level_1_1
+  - first:
+      213: -7480624240429678884
+    second: Building_CC_Army_Camp_level_1_2
+  - first:
+      213: 8167022236730234229
+    second: Building_CC_Army_Camp_level_1_3
+  - first:
+      213: -6624101426016279480
+    second: Building_CC_Army_Camp_level_1_4
+  - first:
+      213: 5487747646743364751
+    second: Building_CC_Army_Camp_level_1_5
+  - first:
+      213: -4519077966327007197
+    second: Building_CC_Army_Camp_level_1_6
+  - first:
+      213: -7449625041170276883
+    second: Building_CC_Army_Camp_level_1_7
+  - first:
+      213: 4037176189878236797
+    second: Building_CC_Army_Camp_level_1_8
+  - first:
+      213: -8838434904184288186
+    second: Building_CC_Army_Camp_level_1_9
+  - first:
+      213: 7271214446022533433
+    second: Building_CC_Army_Camp_level_1_10
+  - first:
+      213: -1255223126509534967
+    second: Building_CC_Army_Camp_level_1_11
+  - first:
+      213: -960331265083146214
+    second: Building_CC_Army_Camp_level_1_12
+  - first:
+      213: -3785941312322168545
+    second: Building_CC_Army_Camp_level_1_13
+  - first:
+      213: -3452026483461027645
+    second: Building_CC_Army_Camp_level_1_14
+  - first:
+      213: 7815358732841102013
+    second: Building_CC_Army_Camp_level_1_15
+  - first:
+      213: -8701420932574198030
+    second: Building_CC_Army_Camp_level_1_16
+  - first:
+      213: 5265748113827883791
+    second: Building_CC_Army_Camp_level_1_17
+  - first:
+      213: -8768709769189529436
+    second: Building_CC_Army_Camp_level_1_18
+  - first:
+      213: -3011820643684802348
+    second: Building_CC_Army_Camp_level_1_19
+  - first:
+      213: 3035623667847633894
+    second: Building_CC_Army_Camp_level_1_20
+  - first:
+      213: -2126430950634292737
+    second: Building_CC_Army_Camp_level_1_21
+  - first:
+      213: -2364025572150025611
+    second: Building_CC_Army_Camp_level_1_22
+  - first:
+      213: 2930221448603592355
+    second: Building_CC_Army_Camp_level_1_23
+  - first:
+      213: 1838691738304959121
+    second: Building_CC_Army_Camp_level_1_24
+  - first:
+      213: 6462661027661129114
+    second: Building_CC_Army_Camp_level_1_25
+  - first:
+      213: -2576512206879060263
+    second: Building_CC_Army_Camp_level_1_26
+  - first:
+      213: -6330348366248543548
+    second: Building_CC_Army_Camp_level_1_27
+  - first:
+      213: -4468365706146763457
+    second: Building_CC_Army_Camp_level_1_28
+  - first:
+      213: 3050714664823505443
+    second: Building_CC_Army_Camp_level_1_29
+  - first:
+      213: 4962701705484337010
+    second: Building_CC_Army_Camp_level_1_30
+  - first:
+      213: 8790588749940325540
+    second: Building_CC_Army_Camp_level_1_31
+  - first:
+      213: -8461897834802665697
+    second: Building_CC_Army_Camp_level_1_32
+  - first:
+      213: 650433284276524023
+    second: Building_CC_Army_Camp_level_1_33
+  - first:
+      213: 2501576772209332976
+    second: Building_CC_Army_Camp_level_1_34
+  - first:
+      213: 1375867843626465533
+    second: Building_CC_Army_Camp_level_1_35
+  - first:
+      213: 6858148092039121507
+    second: Building_CC_Army_Camp_level_1_36
+  - first:
+      213: 4289886915646227389
+    second: Building_CC_Army_Camp_level_1_37
+  - first:
+      213: 581808443889406234
+    second: Building_CC_Army_Camp_level_1_38
+  - first:
+      213: -4106098352952749371
+    second: Building_CC_Army_Camp_level_1_39
+  - first:
+      213: 2615364874245516557
+    second: Building_CC_Army_Camp_level_1_40
+  - first:
+      213: -7625443524136573465
+    second: Building_CC_Army_Camp_level_1_41
+  - first:
+      213: 1327078555049614585
+    second: Building_CC_Army_Camp_level_1_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 286
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6837a0e25cddb20800000000000000
+      internalID: 3160899315018467058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6835b0a0c4db360800000000000000
+      internalID: 7186984186376586949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 254
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde330b23eb7f2890800000000000000
+      internalID: -7480624240429678884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 248
+        width: 91
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575950d1477175170800000000000000
+      internalID: 8167022236730234229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 234
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844242a59d67214a0800000000000000
+      internalID: -6624101426016279480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 254
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84cf1dc865682c40800000000000000
+      internalID: 5487747646743364751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 210
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328b8c068820941c0800000000000000
+      internalID: -4519077966327007197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 217
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd03fae7d9d9890800000000000000
+      internalID: -7449625041170276883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 89
+        width: 202
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d767b55da5ee60830800000000000000
+      internalID: 4037176189878236797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c8ead5842975580800000000000000
+      internalID: -8838434904184288186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 208
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931acdc930b88e460800000000000000
+      internalID: 7271214446022533433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 201
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9014b86873d849ee0800000000000000
+      internalID: -1255223126509534967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 135
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10840e6dc73ca2f0800000000000000
+      internalID: -960331265083146214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 201
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f199f8a6f62a57bc0800000000000000
+      internalID: -3785941312322168545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 196
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c88012f330f710d0800000000000000
+      internalID: -3452026483461027645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 195
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaad372c5bb57c60800000000000000
+      internalID: 7815358732841102013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 138
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f644c093c75e3780800000000000000
+      internalID: -8701420932574198030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 189
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be469a202b31940800000000000000
+      internalID: 5265748113827883791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 179
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8e5fc6ce84f4680800000000000000
+      internalID: -8768709769189529436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_19
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 189
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0aaf5f41dd336d0800000000000000
+      internalID: -3011820643684802348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 189
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb93d974a3b02a20800000000000000
+      internalID: 3035623667847633894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 174
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9fb0411566d72e0800000000000000
+      internalID: -2126430950634292737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_22
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 179
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572ee0c644b413fd0800000000000000
+      internalID: -2364025572150025611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 141
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a66f3de1ec3aa820800000000000000
+      internalID: 2930221448603592355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192dc19e468548910800000000000000
+      internalID: 1838691738304959121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95a089c6fbffa950800000000000000
+      internalID: 6462661027661129114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_26
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 146
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de048d7cc36e3cd0800000000000000
+      internalID: -2576512206879060263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 148
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caf74553b51628a0800000000000000
+      internalID: -6330348366248543548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 133
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3da59e801d2df1c0800000000000000
+      internalID: -4468365706146763457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 121
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32241e303d0565a20800000000000000
+      internalID: 3050714664823505443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 85
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f7e9958ee0fd440800000000000000
+      internalID: 4962701705484337010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 109
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acfcbeb4e17ef970800000000000000
+      internalID: 8790588749940325540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_32
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 112
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17a0f690cc419a80800000000000000
+      internalID: -8461897834802665697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3946b30adc60900800000000000000
+      internalID: 650433284276524023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 62
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2d7e502d267b220800000000000000
+      internalID: 2501576772209332976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 65
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8fc3d9380181310800000000000000
+      internalID: 1375867843626465533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_36
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ac30b8a590d2f50800000000000000
+      internalID: 6858148092039121507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_37
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db380b5cb6db88b30800000000000000
+      internalID: 4289886915646227389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 49
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11d95972bff21800800000000000000
+      internalID: 581808443889406234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_39
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 29
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c25f639d453407c0800000000000000
+      internalID: -4106098352952749371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d207f0f74ab4420800000000000000
+      internalID: 2615364874245516557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 42
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e56901248bfc2690800000000000000
+      internalID: -7625443524136573465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_CC_Army_Camp_level_1_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 24
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc55c62aeaba6210800000000000000
+      internalID: 1327078555049614585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Building_CC_Army_Camp_level_1_0: 3160899315018467058
+      Building_CC_Army_Camp_level_1_1: 7186984186376586949
+      Building_CC_Army_Camp_level_1_10: 7271214446022533433
+      Building_CC_Army_Camp_level_1_11: -1255223126509534967
+      Building_CC_Army_Camp_level_1_12: -960331265083146214
+      Building_CC_Army_Camp_level_1_13: -3785941312322168545
+      Building_CC_Army_Camp_level_1_14: -3452026483461027645
+      Building_CC_Army_Camp_level_1_15: 7815358732841102013
+      Building_CC_Army_Camp_level_1_16: -8701420932574198030
+      Building_CC_Army_Camp_level_1_17: 5265748113827883791
+      Building_CC_Army_Camp_level_1_18: -8768709769189529436
+      Building_CC_Army_Camp_level_1_19: -3011820643684802348
+      Building_CC_Army_Camp_level_1_2: -7480624240429678884
+      Building_CC_Army_Camp_level_1_20: 3035623667847633894
+      Building_CC_Army_Camp_level_1_21: -2126430950634292737
+      Building_CC_Army_Camp_level_1_22: -2364025572150025611
+      Building_CC_Army_Camp_level_1_23: 2930221448603592355
+      Building_CC_Army_Camp_level_1_24: 1838691738304959121
+      Building_CC_Army_Camp_level_1_25: 6462661027661129114
+      Building_CC_Army_Camp_level_1_26: -2576512206879060263
+      Building_CC_Army_Camp_level_1_27: -6330348366248543548
+      Building_CC_Army_Camp_level_1_28: -4468365706146763457
+      Building_CC_Army_Camp_level_1_29: 3050714664823505443
+      Building_CC_Army_Camp_level_1_3: 8167022236730234229
+      Building_CC_Army_Camp_level_1_30: 4962701705484337010
+      Building_CC_Army_Camp_level_1_31: 8790588749940325540
+      Building_CC_Army_Camp_level_1_32: -8461897834802665697
+      Building_CC_Army_Camp_level_1_33: 650433284276524023
+      Building_CC_Army_Camp_level_1_34: 2501576772209332976
+      Building_CC_Army_Camp_level_1_35: 1375867843626465533
+      Building_CC_Army_Camp_level_1_36: 6858148092039121507
+      Building_CC_Army_Camp_level_1_37: 4289886915646227389
+      Building_CC_Army_Camp_level_1_38: 581808443889406234
+      Building_CC_Army_Camp_level_1_39: -4106098352952749371
+      Building_CC_Army_Camp_level_1_4: -6624101426016279480
+      Building_CC_Army_Camp_level_1_40: 2615364874245516557
+      Building_CC_Army_Camp_level_1_41: -7625443524136573465
+      Building_CC_Army_Camp_level_1_42: 1327078555049614585
+      Building_CC_Army_Camp_level_1_5: 5487747646743364751
+      Building_CC_Army_Camp_level_1_6: -4519077966327007197
+      Building_CC_Army_Camp_level_1_7: -7449625041170276883
+      Building_CC_Army_Camp_level_1_8: 4037176189878236797
+      Building_CC_Army_Camp_level_1_9: -8838434904184288186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

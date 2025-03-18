@@ -1,0 +1,366 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+General Overview
+We need to update our game’s codebase so that all functionalities currently based on "gold" are replaced by SOL (Solana’s token). The core logic remains the same, but we will make targeted modifications to handle SOL balances instead of gold. All changes should be minimal, integrated with the existing code flow, and should not disturb unrelated functionalities.
+
+Specific Objectives and Requirements
+Replace Gold with SOL:
+
+Data Source:
+Replace any usage of “gold” with solBalance that is retrieved from @ApiClient.cs.
+Sync Data:
+When synchronizing data, include the walletAddress along with balanceSol and balanceLamports.
+Display in UI:
+Update the frontend to show the SOL amount instead of gold.
+Since gold is represented as an integer, use balanceLamports (or the converted SOL value) by dividing the stored value by the lamports conversion factor.
+Store & Purchasing Functionality:
+
+Infinite Balance Simulation:
+Configure the server logic so that every player is treated as if they have an infinite amount of “gold” (or SOL) for purchasing purposes. This is to allow any purchase without balance restrictions.
+Deduction Logic:
+When a purchase is made (e.g., buying buildings or upgrades), simply call the Deduct function in the API client.
+The amount to be deducted should now be in SOL. Convert the originally required gold amount by dividing by the lamports conversion factor.
+The API call should be made asynchronously—trigger the deduction without waiting for the server’s response, as the UI is designed to check the SOL balance beforehand.
+Attack Mechanics:
+
+Post-Attack Processing:
+After a player executes an attack, immediately call the /attack endpoint and pass the necessary parameters, including the damage percentage.
+Matchmaking & Battle Fees:
+In matchmaking, the available “gold” section should show 25% of the defender’s base SOL balance.
+The battle search fee should be within the range of approximately 0.001 to 0.1 SOL.
+Player Registration:
+
+On New Login:
+When a player registers for the first time, invoke the registration function in @ApiClient.cs to initialize their account.
+Set the initial gold balance (i.e., SOL) to a high number (suggested: 300 million lamports) to simulate an inexhaustible balance.
+Communication:
+Ensure that all communications for registration and subsequent updates are routed via @ApiClient.cs and follow the established patterns from @Player.cs.
+Coding and Integration Guidelines
+Minimal Changes:
+
+Do Not Delete Code:
+Every piece of existing code is potentially critical. If any code appears redundant or “useless,” comment it out rather than removing it.
+Preserve Flow:
+Do not re-optimize or overhaul the current code flow. The only changes allowed are the additions needed for SOL handling.
+Focus Area:
+Only modify the sections where gold is used. All other resource handling should remain intact.
+File and API Considerations:
+
+Key Files:
+Review and understand @Player.cs and especially @Database.cs. Handle @Database.cs with extra care—its schema should not be modified.
+API Client Usage:
+All server communications must be done via @ApiClient.cs. Do not directly call server methods.
+Keep all API client code separated from SQL database logic.
+For details on API implementation, refer to @server.ts.
+Client-Server Separation:
+The client is hosted in a different location than the server. Direct method calls between client and server are not permitted.
+Conversion and Calculation:
+
+Use balanceLamports as the underlying integer storage for SOL.
+Whenever displaying the balance on the frontend or performing purchase calculations, convert the integer by dividing by the lamports conversion factor.
+When calling the Deduct function, send the value in SOL, using the converted value from the required gold.
+Attack and Deduction Specifics:
+
+For attacks, in addition to deducting the battle search fee, ensure that the target’s “gold” is recalculated as 25% of their SOL balance.
+After an attack, ensure the attack function is called with the proper parameters to process damage.
+Additional Notes:
+
+Purchases of Buildings/Upgrades:
+When a building is purchased or an upgrade is made, simply trigger the deduct API call without waiting for its response.
+Consistency in UI:
+Ensure that every reference to gold in the UI is updated to reflect SOL amounts.
+Folder Structure Awareness:
+Familiarize yourself with the provided folder structure to understand where each piece of the code resides. Do not make structural changes.
+Testing & Verification:
+After making changes, index the codebase to confirm all dependencies and interactions are maintained.
+Final Confirmation:
+Once you have reviewed all the files (especially @Player.cs, @Database.cs, and @ApiClient.cs), confirm that you understand all requirements before starting your changes.
+Summary of Actions
+Registration:
+
+On new login, register the player via @ApiClient.cs with an initial SOL balance (300 million lamports).
+UI Updates:
+
+Replace all displays of gold with SOL.
+Convert the internal integer (balanceLamports) to SOL when showing amounts in the UI.
+Purchasing and Deductions:
+
+Simulate an infinite balance on the server.
+When purchasing buildings/upgrades, call the deduct function in @ApiClient.cs with the SOL-converted value (gold requirement divided by lamports).
+Do not wait for the deduct call’s response; proceed as if the transaction is instantaneous.
+Attack Functionality:
+
+For battles, charge a fee in the range of 0.001 to 0.1 SOL.
+Use 25% of the defender’s SOL balance as their “available gold” for matchmaking.
+After an attack, call the /attack function with the required damage percentage.
+Keep It Minimal:
+
+Make only the necessary changes to implement these features.
+Ensure all modifications are additive or slight adjustments without rewriting or optimizing existing logic.
+Please read through this prompt carefully (as many times as necessary) to ensure all requirements are fully understood. Confirm your readiness before proceeding with any code changes.
+
+
+
+raw prompt 
+
+so we need to do some stuff and do them one by one 
+we need to replace the gold with solBalance that we get from @ApiClient.cs we need to send a walletAddress in sync data , we need to make it so that in store we can buy thing with Sol (how we do that , just make the server think ever yone has infinite gold and they can but  anything and just pass the ammout to Deduct funtion in api client 
+after we attack someone we need to call function of /attack after and pass the disred parameters 
+we need to do some more stuff too 
+so when a player registers for the first time 
+call register funciton in api client 
+this is all the things i want 
+soo since gold uses int we can send balanceLamports in gold  and  when dispalying in frontend we just divide the gold value by lamports  also in deduct we need to send value in sol 
+also  when finding matches we should see 25% of ballance of defender's base in avalible gold section 
+
+these are the only stuff we need to do 
+also the purchases of building  and upgras devide that by  lamports  too  so the converstion makes sense
+
+index the code base once 
+and understand everything that is required 
+
+some imp files that u should understand are 
+@Player.cs  @Database.cs 
+
+
+also please note very important 
+dont delete any code  
+not even if it  seems useless 
+everything is there for a reason 
+please comment out code if  absolute nesssasy 
+
+also not  and client  would be at completely diffrent location 
+so u can'nt  diretly call server's methords 
+
+
+
+u can think about this and goo through codebase once 
+tell me when u are ready 
+
+
+ and @Database.cs is very very important file please handle with care 
+also keep this all @ApiClient.cs  away from sql database 
+reffer @server.ts for the implementation of the api 
+the database schema is not update and i prefffer you dont update it 
+  
+
+also most of the changes stated does not requires changing a lot of functions and stuff 
+please keep your changes minimal and 
+understand allready existign code 
+dont try to optimise the flow 
+keep it as it is 
+just add the nessasry changes 
+and all good 
+
+again in ui we need to reflec the sol amount instead of gold 
+and when buying  just call the deduct function dont even wait for its response as in frontend we would be only letting someone buy if they have that much  sol
+please dont  make unessasry eddits in codebase 
+also call all the @ApiClient.cs  from 
+
+
+again check @Player.cs  from how to communicate to 
+
+also note only gold is replace by sol everything  other resourcec is the same 
+
+
+
+i will make those changes myself 
+you do rest 
+and this  is my folder strcture 
+├── SendClash
+│   ├── Assets
+│   │   ├── DevelopersHub
+│   │   │   └── RealtimeNetworking
+│   │   ├── Fonts
+│   │   │   └── Regular.ttf
+│   │   ├── Layer Lab
+│   │   │   ├── GUI Pro-FantasyRPG
+│   │   │   └── Scripts
+│   │   ├── Materials
+│   │   │   ├── Point.mat
+│   │   │   └── Spark.mat
+│   │   ├── Prefabs
+│   │   │   ├── Bars
+│   │   │   ├── Buildings
+│   │   │   ├── Buttons
+│   │   │   ├── CUIColorPicker.prefab
+│   │   │   ├── Clan
+│   │   │   ├── FX
+│   │   │   ├── LanguageItem.prefab
+│   │   │   ├── Other
+│   │   │   ├── Projectiles
+│   │   │   ├── QueryItems
+│   │   │   ├── UI_BattleReportsItem.prefab
+│   │   │   ├── UI_BattleSpell.prefab
+│   │   │   ├── UI_BattleUnit.prefab
+│   │   │   ├── UI_ChatItem.prefab
+│   │   │   ├── UI_PlayerRank.prefab
+│   │   │   ├── UI_RequiredBuilding.prefab
+│   │   │   ├── UI_ResearchSpell.prefab
+│   │   │   ├── UI_ResearchUnit.prefab
+│   │   │   └── Units
+│   │   ├── RTLTMPro
+│   │   │   ├── Fonts
+│   │   │   ├── Ranges
+│   │   │   ├── Resources
+│   │   │   ├── Scenes
+│   │   │   ├── Scripts
+│   │   │   └── Tests
+│   │   ├── Resources
+│   │   │   ├── SolanaUnitySDK
+│   │   │   └── webauth
+│   │   ├── Samples
+│   │   │   └── Solana SDK
+│   │   ├── Scenes
+│   │   │   ├── Game
+│   │   │   ├── Game.lighting
+│   │   │   ├── Game.unity
+│   │   │   └── Start.unity
+│   │   ├── Sounds
+│   │   │   └── CC0
+│   │   ├── Sprites
+│   │   │   ├── Banners
+│   │   │   ├── CC0
+│   │   │   ├── Language
+│   │   │   ├── Loading
+│   │   │   └── Other
+│   │   ├── TextMesh Pro
+│   │   │   ├── Documentation
+│   │   │   ├── Fonts
+│   │   │   ├── Resources
+│   │   │   ├── Shaders
+│   │   │   └── Sprites
+│   │   ├── WebGLTemplates
+│   │   │   └── xNFT
+│   │   └── _Scripts
+│   │       ├── AStarPathfinding
+│   │       ├── AssetsBank.cs
+│   │       ├── AssetsPreloader.cs
+│   │       ├── Battle.cs
+│   │       ├── BattleUnit.cs
+│   │       ├── BuildGrid.cs
+│   │       ├── Building.cs
+│   │       ├── CameraController.cs
+│   │       ├── Data.cs
+│   │       ├── Editor
+│   │       ├── EditorTools.cs
+│   │       ├── Input
+│   │       ├── Language
+│   │       ├── Player.cs
+│   │       ├── SoundManager.cs
+│   │       ├── StartLoading.cs
+│   │       ├── Test
+│   │       ├── Tools
+│   │       ├── UI
+│   │       └── Unit.cs
+│   ├── Client - Copy.sln
+│   ├── Client.sln
+│   ├── ProjectSettings
+│   │   ├── ProjectVersion.txt
+│   │   └── SceneTemplateSettings.json
+│   ├── SendClash.sln
+│   ├── Temp
+│   │   ├── FSTimeGet-153d3dffe1297cc438df85926f39f655
+│   │   ├── ProcessJobs
+│   │   ├── UnityLockfile
+│   │   ├── __Backupscenes
+│   │   │   └── 0.backup
+│   │   └── workerlic
+│   └── UserSettings
+│       ├── Layouts
+│       │   ├── CurrentMaximizeLayout.dwlt
+│       │   ├── default-2022.dwlt
+│       │   ├── default-2023.dwlt
+│       │   └── default-6000.dwlt
+│       ├── Search.index
+│       └── Search.settings
+├── Server
+│   ├── ApiClient.cs
+│   ├── Clash Dark Server.sln
+│   ├── Data.cs
+│   ├── Program.cs
+│   ├── Scripts
+│   │   ├── AStarPathfinding
+│   │   │   ├── AStarSearch.cs
+│   │   │   ├── Cell.cs
+│   │   │   ├── DictionaryExtensions.cs
+│   │   │   ├── FastPriorityQueue.cs
+│   │   │   ├── Grid.cs
+│   │   │   ├── IGrid.cs
+│   │   │   ├── PathingConstants.cs
+│   │   │   ├── StepDirection.cs
+│   │   │   └── Vector2Int.cs
+│   │   ├── Battle.cs
+│   │   ├── Client.cs
+│   │   ├── Database.cs
+│   │   ├── Email.cs
+│   │   ├── Packet.cs
+│   │   ├── Receiver.cs
+│   │   ├── Retry.cs
+│   │   ├── Sender.cs
+│   │   ├── Server.cs
+│   │   ├── Threading.cs
+│   │   └── Tools.cs
+│   ├── Terminal.cs
+│   ├── bin
+│   │   └── Debug
+│   │       ├── net7.0
+│   │       └── net8.0
+│   └── obj
+│       ├── Clash Dark Server.csproj.nuget.dgspec.json
+│       ├── Clash Dark Server.csproj.nuget.g.props
+│       ├── Clash Dark Server.csproj.nuget.g.targets
+│       ├── Debug
+│       │   ├── net7.0
+│       │   └── net8.0
+│       ├── project.assets.json
+│       └── project.nuget.cache
+├── clash_of_whatever.sql
+├── dominari-server
+│   ├── package.json
+│   ├── src
+│   │   ├── config
+│   │   │   ├── env.ts
+│   │   │   └── index.ts
+│   │   ├── interfaces
+│   │   │   └── wallet.d.ts
+│   │   ├── server.ts
+│   │   └── utils
+│   │       ├── privy.ts
+│   │       ├── solana.ts
+│   │       └── supabase.ts
+│   ├── tsconfig.json
+│   └── yarn.lock
+
+
+
+please read the prompth  100 times nd understand all the requirements
+and i mean all of them 
+
+make the buying building changes minimal 
+
+
+soo the only only funciton u need to do is 
+register player on new login 
+use show sol instead of gold
+also send wallet address , and balanceSol and balanceLamports in data  
+make the initalization gold 300million or something so it never runs out 
+make it so when we buy from buildings 
+we just call and deduct api call (everything can be same ) just that api call and device the req_gold by 1 million 
+also show this ammout in UI too 
+also when player attacks the batttel search fee should be around 0.001 to 0.1 sol 
+and when player attacks someone the target's gold should be target's 25%  sol balance of target 
+also after the attack call the atttack funtion with give the damage percentage 
+all this nothing mrore 
+and i repeat nothing more  
+see the most optimal way we can do this without doing any dammage 
+
+
+
+- You can @ files here
+- You can use markdown but dont have to

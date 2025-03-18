@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: da71c945eb58a1c48a1e9ac94fa1dbac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6872244637225722057
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_0
+  - first:
+      213: 3677751348329504972
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_1
+  - first:
+      213: 4253274338861983010
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_2
+  - first:
+      213: -3532741038819446153
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_3
+  - first:
+      213: -5669503479385005026
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_4
+  - first:
+      213: -7856610975393034819
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_5
+  - first:
+      213: -7656184774863643310
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_6
+  - first:
+      213: -596411633950869345
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_7
+  - first:
+      213: 7872398039375418512
+    second: Icon_HV_Resource_Gems_Pocketful_of_Gems_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 225
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c02c6b361e1f5f50800000000000000
+      internalID: 6872244637225722057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 206
+        width: 133
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0e461ad5ff90330800000000000000
+      internalID: 3677751348329504972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 242
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2252724f97aa60b30800000000000000
+      internalID: 4253274338861983010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 210
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772f8b11ebe29fec0800000000000000
+      internalID: -3532741038819446153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 213
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e146a62bf90e151b0800000000000000
+      internalID: -5669503479385005026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd4349a1f5b7f290800000000000000
+      internalID: -7856610975393034819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 201
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d9f7fe284cfb590800000000000000
+      internalID: -7656184774863643310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 220
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98b27267ce19b7f0800000000000000
+      internalID: -596411633950869345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_HV_Resource_Gems_Pocketful_of_Gems_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 201
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094147b9e40604d60800000000000000
+      internalID: 7872398039375418512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_0: 6872244637225722057
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_1: 3677751348329504972
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_2: 4253274338861983010
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_3: -3532741038819446153
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_4: -5669503479385005026
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_5: -7856610975393034819
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_6: -7656184774863643310
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_7: -596411633950869345
+      Icon_HV_Resource_Gems_Pocketful_of_Gems_8: 7872398039375418512
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
